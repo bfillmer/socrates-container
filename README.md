@@ -20,8 +20,13 @@ class App extends SocratesContainer {
     super.componentWillMount();
   }
 
-  // { this.props.store } The Socrates store.
-  // { this.state.store } The unwrapped Socrates store that updates on subscribe changes.
+  /**
+   * { this.props.store }
+   * The Socrates store.
+   *
+   * { this.state.store }
+   * The unwrapped Socrates store that updates on subscribe changes.
+   */
   render () {
     return (
       <div className = "container-app">
